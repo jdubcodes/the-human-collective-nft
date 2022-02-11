@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    height: 100px;
+    padding: 0 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo h1 {
+    margin: -3px 0;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.header-socials {
+    display: flex;
+    gap: 15px;
+    font-size: 26px;
+}
+
+.header-socials a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+}

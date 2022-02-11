@@ -1,0 +1,17 @@
+button {
+    padding: 0.8rem;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--main-color);
+}
